@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+button {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.green {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.green:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.blue {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.blue:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.red {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.red:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.gray {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.gray:hover {background-color: #e7e7e7;}
+
+.black {
+  background-color: white;
+  color: black;
+  border: 2px solid #000;
+}
+
+.black:hover {
+  background-color: #000;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Membuat Read More Read Less Dengan Tampilan Button Yang Menarik</h2>
+<p>Jika kalian berkenan silahkan kunjungi Blog maupun Website kami yang lainnya<span id="dots">...</span><span id="more"> www.idanime.net, www.legendseo.net, www.westernblog.xyz dan www.idviral.site. Selain itu kunjungi fanspage kami di <a href="https://www.facebook.com/indonesiaberitaterkini/" target="new">Status Indonesia.</a></span></p>
+<button class="green" onclick="myFunction()" id="myBtn">Baca Selengkapnya</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Baca Selengkapnya"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Ciutkan"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</html>
