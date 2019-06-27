@@ -14,22 +14,20 @@
   <p>Vivamus est odio, laoreet in neque quis, imperdiet tempus elit. Nunc vestibulum tincidunt efficitur. Donec eu nisl at nisi aliquam ultrices non et mauris. Sed rutrum at dui in fringilla. Pellentesque ac ex libero. Donec congue elit ac malesuada commodo. Maecenas maximus porttitor neque a maximus. Praesent maximus, mauris eleifend ornare mattis, lorem leo volutpat ipsum, auctor ultrices nisi lorem vel metus. Praesent aliquet elit sit amet tellus maximus dapibus sit amet sed sapien.</p></div>
 <style>
 .accordion {
-  background-color: #111;
+  background-color: #3a86bd;
   color: #fff;
   cursor: pointer;
-  padding: 12px;
+  padding: 10px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 12px;
   transition: 0.4s;
 }
-
 .active, .accordion:hover {
-  background-color: #555;
+  background-color: #366080;
 }
-
 .accordion:after {
   content: '\002B';
   color: fff;
@@ -37,11 +35,9 @@
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
   content: "\2212";
 }
-
 .panel {
   padding: 0 18px;
   background-color: white;
@@ -53,7 +49,6 @@
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
