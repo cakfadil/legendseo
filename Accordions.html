@@ -1,0 +1,68 @@
+<center><strong><p style="color:red">DEMO</p></strong></center>
+<b>Cara Menyembunyikan dan Menampilkan Tulisan Menggunakan Accordions</b>
+<button class="accordion">Bagian 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt tincidunt luctus. Phasellus in maximus magna. Nullam quis volutpat orci. Nullam ornare sapien pharetra justo lobortis hendrerit. Fusce id diam non ante mattis aliquam. Morbi ligula turpis, scelerisque vel eros quis, pharetra venenatis libero. In non ornare nunc. Aliquam erat volutpat.</p>
+</div>
+
+<button class="accordion">Bagian 2</button>
+<div class="panel">
+  <p>Aenean tincidunt porta gravida. Ut vitae dignissim augue. Mauris sed malesuada purus, at rhoncus purus. Fusce ultricies placerat ex eu pharetra. Proin consequat diam et magna efficitur tincidunt. Vivamus vel quam in tellus consectetur pellentesque a ut erat. Donec venenatis rhoncus eros, eu condimentum turpis hendrerit vel. Donec suscipit lorem mi, quis eleifend felis consectetur vel. Nam rutrum fringilla commodo. Etiam posuere nisi sed nisl viverra tempor. Proin a ipsum tellus. Quisque consequat interdum odio non pretium. Fusce a pretium tortor.</p></div>
+
+<button class="accordion">Bagian 3</button>
+<div class="panel">
+  <p>Vivamus est odio, laoreet in neque quis, imperdiet tempus elit. Nunc vestibulum tincidunt efficitur. Donec eu nisl at nisi aliquam ultrices non et mauris. Sed rutrum at dui in fringilla. Pellentesque ac ex libero. Donec congue elit ac malesuada commodo. Maecenas maximus porttitor neque a maximus. Praesent maximus, mauris eleifend ornare mattis, lorem leo volutpat ipsum, auctor ultrices nisi lorem vel metus. Praesent aliquet elit sit amet tellus maximus dapibus sit amet sed sapien.</p></div>
+<style>
+.accordion {
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #555;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
