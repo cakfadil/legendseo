@@ -1,0 +1,38 @@
+{
+  "name": "LegendSeo",
+  "short_name": "LegendSeo",
+  "start_url": "https://legendseo.net/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#C51162",
+  "description": "Informasi Seputar Blogger dan Info Menarik Lainnya.",
+  "icons": [{
+    "src": "https://4.bp.blogspot.com/-wy9AAp5Of4U/XTwB9QK-Z1I/AAAAAAAAEQg/aUV1P0nRVZwBwvupXape6ACcnHeCl54KwCLcBGAs/s48/android-icon-48x48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://4.bp.blogspot.com/-U76LzSVUtmw/XTwCGAPhclI/AAAAAAAAEQk/1BbMO8yVprcnf3OLR4u3TmcmrP3O0TNxwCLcBGAs/s72/android-icon-72x72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-Uv83PlZjTGs/XTvnh8YJXSI/AAAAAAAAEOE/-KkC5Hoho38cCrF9PUxRyae5W_geFjdTgCPcBGAYYCw/s96/favicon-96x96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-TWg-Qnl_zEk/XTvniC4n-OI/AAAAAAAAEOE/OQYWpIVh6-89834Hris_-emKSL2_-q6BQCPcBGAYYCw/s144/ms-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://2.bp.blogspot.com/-54XUDPheago/XTwCtgSJHLI/AAAAAAAAEQw/a0hc9p8kbwIFcWbpXpKObbdwvar0Tc1XACLcBGAs/s150/ms-icon-150x150.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://4.bp.blogspot.com/-wERKNm2UhkQ/XTvoEC2aquI/AAAAAAAAEOQ/gAo8-TAjNVAYB0LNYJCFzT-Kqo1WhA_RwCPcBGAYYCw/s192/android-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://2.bp.blogspot.com/-S-HPGYdhra8/XTwEAtHw7RI/AAAAAAAAEQ8/jXdQAda2rfwfqv25hjY5orYoB2RkySyIgCLcBGAs/s512/icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
